@@ -1,0 +1,9 @@
+{
+  "subject": "acct:pathflow@ory-iam",
+  "links": [
+    {
+      "rel": "http://openid.net/specs/connect/1.0/issuer",
+      "href": "https://ory-iam.example.com"
+    }
+  ]
+}
