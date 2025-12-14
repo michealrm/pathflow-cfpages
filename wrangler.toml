@@ -1,0 +1,11 @@
+name = "pathflow-cfpages"
+main = "src/index.js"
+compatibility_date = "2025-12-14"
+
+routes = [
+  { pattern = "pathflow.net/.well-known/webfinger*", zone_name = "pathflow.net" }
+]
+
+[vars]
+OIDC_ISSUER = "https://dreamy-goodall-cssiv43dfi.projects.oryapis.com"
+
